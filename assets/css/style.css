@@ -1,0 +1,70 @@
+#bgblue{
+    background-color: #091C3E;
+}
+
+.logo{
+    margin-left: 5vh;
+}
+
+.greendot{
+    color: green;
+    margin: 0.5vh;
+}
+
+.reddot{
+    color: red;
+    margin: 0.5vh;
+}
+
+.greydot{
+    color: #ABABAB;
+    margin: 0.5vh;
+}
+
+#container{
+    font-family: 'Heebo', sans-serif;
+    color: #091C3E;
+}
+
+h1{
+    padding: 5vh;
+}
+
+.fsicon{
+    font-size:24px;
+}
+
+.fstcolor{
+    background-color: #E6E6E6;
+}
+
+.scdcolor{
+    background-color: #B3B3B3;
+}
+
+.trdcolor{
+    background-color: #808080;
+}
+
+.test{
+    display: none;
+}
+
+.nameClubWeb{
+    display: none;
+}
+
+@media(min-width: 576px)
+{
+    .test{
+        display: table-cell;
+    }
+    
+    .nameClubWeb{
+        display: table-cell;
+    }
+
+    .nameClubTel{
+        display: none;
+    }
+}
